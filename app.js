@@ -9,7 +9,7 @@ let finalResult = document.getElementById ("main-2");
 
 function oddDuck {
     this.name = name;
-    this.src= img:
+    this.src= img;
     this.firstCount = 0;
     this.finalCount = 0;
 }
