@@ -3,7 +3,7 @@
 let mainS = document.getElementById("main-s");
 let finalResult = document.getElementById ("final-Results");
 
-let mainS = document.getElementById("main-1";
+let mainS = document.getElementById("main-1");
 
 let finalResult = document.getElementById ("main-2");
 
