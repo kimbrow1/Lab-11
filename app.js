@@ -40,3 +40,14 @@ function duckImg (dogDuck, sweep, wine) {
 
 oddDuck (duckArr[0], duckArr[1], duckArr[2]);
 
+function onDuckClick (event) {
+    console.log("cliked");
+    event.preventDefault();
+     let target = event.target;
+     let onDuckName = target.alt;
+     comsole.log(onDuckName);
+
+     let theBestProduct;
+     let productViews;
+
+}
