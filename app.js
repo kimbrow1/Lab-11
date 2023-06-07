@@ -24,4 +24,19 @@ let duckArr = [];
  duckArr.push(sweep);
  duckArr.push(wine);
 
+function duckImg (dogDuck, sweep, wine) {
+ dogduckImg.src = dogDuck.imgSrc;
+ dogDuckImg.alt = dogDuck.name;
+ dogDuckImg.title = dogDuck.name;
+
+ sweepImg.src = sweep.imgSrc;
+ sweepImg.alt = sweep.name;
+ sweepImg.title = sweep.name;
+
+ wineImg.src = wine.imgSrc;
+ wineImg.alt = wine.name;
+ wine.title = wine.name;
+}
+
+oddDuck (duckArr[0], duckArr[1], duckArr[2]);
 
