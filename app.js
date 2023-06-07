@@ -50,4 +50,18 @@ function onDuckClick (event) {
      let theBestProduct;
      let productViews;
 
+     for (let i = 0; i < duckArr.length; i++){
+        let oddDuck = duckArr[i];
+        if(productViews.name === target.alt) {
+            theBestProduct = oddDuck;
+            productViews = oddDuck;
+
+        }
+        theBestProduct.voteCount++;
+        productViews.viewCount++;
+        console.log(theBestProduct.voteCount);
+        console.log(productViews.viewCount);
+
+     }
+
 }
