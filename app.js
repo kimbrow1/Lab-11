@@ -68,5 +68,30 @@ function onDuckClick (event) {
 
 mainS.addEventListener("click", onDuckClick);
 
+let days = ["Mon", "Tues", "Wed", "Thur", "Fri"];
+
+let wineSales = [14, 21, 18, 22, 99];
+
+
+let myChart = document.getElementById("wine-sales");
+let chartCtx = myChart.getContext('2d');
+
+let wineDataObj = {
+    type:" bar",
+    data: {
+        labels: days,
+        datasets: [
+            {
+                label: "Wine Sales",
+                data: wineSales
+
+            }
+
+        ]
+    }
+
+};
+let wineChart = new Chart (chartCtx, wineDataObj);
+
 
 
