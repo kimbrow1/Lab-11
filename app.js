@@ -65,3 +65,5 @@ function onDuckClick (event) {
      }
 
 }
+
+mainS.addEventListener("click", onDuckClick);
