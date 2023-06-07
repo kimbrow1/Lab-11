@@ -18,3 +18,10 @@ let dogDuck = new oddDuck ("dogDuck", img/dog-duck.jpg);
 let sweep = new oddDuck ("sweep", img/sweep.png);
 let wine = new oddDuck ("wine", img/wine-glass.jpg);
 
+let duckArr = [];
+
+ duckArr.push (dogDuck);
+ duckArr.push(sweep);
+ duckArr.push(wine);
+
+
