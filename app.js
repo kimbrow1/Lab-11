@@ -99,7 +99,7 @@ function onDuckClick (event) {
     event.preventDefault();
      let target = event.target;
      let onDuckName = target.alt;
-     comsole.log(onDuckName);
+     console.log(onDuckName);
 
      let theBestProduct;
      let productViews;
