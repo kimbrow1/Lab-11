@@ -83,7 +83,13 @@ function handleDuckClick(event) {
     event.preventDefault();
     let target = event.target;
     let duckName = target.alt;
-    console.log(duckName);
+
+let theBestDuck;
+for (let i = 0; i < duckArr.length; i++) {
+    let duck = duckArr[i];
+    if(duck.name === duckName)
+         theBestDuck= duck;
+    }
 }
 
 votingSpace.addEventListener("click", handleDuckClick);
