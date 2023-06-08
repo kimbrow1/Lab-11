@@ -91,7 +91,9 @@ let theBestDuck;
     if(duck.name === duckName)
       theBestDuck= duck;
     }
-    console.log(duckName);
+
+    theBestDuck.voteCount++;
+    console.log(duckName, theBestDuck.voteCount);
     console.log(theBestDuck);
 }
 
