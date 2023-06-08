@@ -52,15 +52,14 @@ let boots = new oddDuck ("boots", img/boots.jpg );
 let breakfast = new oddDuck ("breakfast", img/breakfast.jpg);
 let bubbleGum = new oddDuck ("bubbleGum", img/bubblegum.jpg);
 let chair = new oddDuck ("chair", img/chair.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
-let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let cthulhu = new oddDuck ("cthulu", img/cthulhu.jpg);
+let dragon = new oddDuck ("dragon", img/dragon.jpg);
+let pen = new oddDuck ("pen", img/pen.jpg);
+let scissors = new oddDuck ("scissors", img/scissors.jpg);
+let shark = new oddDuck ("shark", img/wine-glass.jpg);
+let tauntaun = new oddDuck ("tauntaun", img/tauntaun.jpg );
+let unicorn = new oddDuck ("unicorn", img/unicorn.jpg);
+let water = new oddDuck ("water",img/water-can.jpg );
 
 let duckArr = [];
 
