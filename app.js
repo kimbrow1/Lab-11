@@ -92,11 +92,11 @@ function duckImg (img1, img2, img3) {
 
  img2.src = dogDuck[1].imgSrc;
  img2.alt = dogDuck[1].name;
- img2.title = dogDuck.name;
+ img2.title = dogDuck[1].name;
 
- img3.src = dogDuck.imgSrc;
- img3.title = dogDuck.name;
- img3.alt = dogDuck.name;
+ img3.src = dogDuck[2].imgSrc;
+ img3.title = dogDuck[2].name;
+ img3.alt = dogDuck[2].name;
  
 
 }
