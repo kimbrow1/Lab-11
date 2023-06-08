@@ -66,6 +66,24 @@ let duckArr = [];
  duckArr.push (dogDuck);
  duckArr.push(sweep);
  duckArr.push(wine);
+ duckArr.push(bag);
+ duckArr.push(banana);
+ duckArr.push(bathroom);
+ duckArr.push(boots);
+ duckArr.push(breakfast);
+ duckArr.push(bubbleGum);
+ duckArr.push(chair);
+ duckArr.push(cthulhu);
+ duckArr.push(dragon);
+ duckArr.push(pen);
+ duckArr.push(scissors);
+ duckArr.push(shark);
+ duckArr.push(tauntaun);
+ duckArr.push(unicorn);
+ duckArr.push(water);
+ 
+ 
+
 
 function duckImg (dogDuck, sweep, wine) {
  dogduckImg.src = dogDuck.imgSrc;
