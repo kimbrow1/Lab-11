@@ -1,21 +1,65 @@
 'use strict';
 
-let mainS = document.getElementById("main-s");
+// TODO: Make a voting app for ducks 
+
+
+//TODO: GLOBAL VARIABLES FOR ELEMENTS 
+
+
+// TODO: GLOBAL VARIABLE FOR STATE
+
+// . FOR EXAMPLE GOAT OBJECTS
+
+// .             GOAT VOTES
+
+// TODO: VOTING MACHINE DOM
+
+// VOTING MACHING JS
+
+
+
+
+
+
+
+
+
+let votingSpace = document.getElementById("voting-space");
 let finalResult = document.getElementById ("final-Results");
+
+// TIDO: PUT VOTING AND RESULT AREA IN HTML
 
 let main1 = document.getElementById("main-1");
 let main2 = document.getElementById ("main-2");
 let main3 = document.getElementById ("main-3");
 
-function oddDuck(name, img1) {
+// CONSTRUSTOR
+
+function oddDuck(name, imgSrc) {
     this.name = name;
-    this.img1 = img1;
-    this.firstCount = 0;
-    this.finalCount = 0;
+    this.imgSrc = imgSrc;
+    this.voteCount = 0;
+    this.viewCount = 0;
 }
 
 let dogDuck = new oddDuck ("dogDuck", img/dog-duck.jpg);
 let sweep = new oddDuck ("sweep", img/sweep.png);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let bag = new oddDuck ("bag", img/bag.jpeg );
+let banana = new oddDuck ("banana", img/banana.jpeg);
+let bathroom = new oddDuck ("bathroom", img/bathroom.jpeg);
+let boots = new oddDuck ("boots", img/boots.jpg );
+let breakfast = new oddDuck ("breakfast", img/breakfast.jpg);
+let bubbleGum = new oddDuck ("bubbleGum", img/bubblegum.jpg);
+let chair = new oddDuck ("chair", img/chair.jpg);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
+let wine = new oddDuck ("wine", img/wine-glass.jpg);
 let wine = new oddDuck ("wine", img/wine-glass.jpg);
 
 let duckArr = [];
