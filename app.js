@@ -29,9 +29,9 @@ let finalResult = document.getElementById ("final-Results");
 
 // TIDO: PUT VOTING AND RESULT AREA IN HTML
 
-let main1 = document.getElementById("main-1");
-let main2 = document.getElementById ("main-2");
-let main3 = document.getElementById ("main-3");
+let img1 = document.getElementById("img-1");
+let img2 = document.getElementById ("img-2");
+let img3 = document.getElementById ("img-3");
 
 // CONSTRUSTOR
 
@@ -86,20 +86,13 @@ let duckArr = [];
 
 
 function duckImg (dogDuck, sweep, wine) {
- dogduckImg.src = dogDuck.imgSrc;
- dogDuckImg.alt = dogDuck.name;
- dogDuckImg.title = dogDuck.name;
+ img1.src = dogDuck.imgSrc;
+ img2.alt = dogDuck.name;
+ img3.title = dogDuck.name;
 
- sweepImg.src = sweep.imgSrc;
- sweepImg.alt = sweep.name;
- sweepImg.title = sweep.name;
-
- wineImg.src = wine.imgSrc;
- wineImg.alt = wine.name;
- wine.title = wine.name;
 }
 
-OddDuck (duckArr[0], duckArr[1], duckArr[2]);
+duckImg(duckArr[0], duckArr[1], duckArr[2]);
 
 function onDuckClick (event) {
     console.log("cliked");
