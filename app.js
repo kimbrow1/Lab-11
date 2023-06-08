@@ -1,29 +1,5 @@
 'use strict';
 
-// TODO: Make a voting app for ducks 
-
-
-//TODO: GLOBAL VARIABLES FOR ELEMENTS 
-
-
-// TODO: GLOBAL VARIABLE FOR STATE
-
-// . FOR EXAMPLE GOAT OBJECTS
-
-// .             GOAT VOTES
-
-// TODO: VOTING MACHINE DOM
-
-// VOTING MACHING JS
-
-
-
-
-
-
-
-
-
 let votingSpace = document.getElementById("voting-space");
 let finalResult = document.getElementById ("final-Results");
 
@@ -101,8 +77,16 @@ function duckImg (img1, img2, img3) {
 
 }
 
-duckImg(duckArr[0], duckArr[1], duckArr[2]);
+duckImg(dogDuck, wine, sweep);
 
+function handleDuckClick(event) {
+    event.preventDefault();
+    let target = event.target;
+    let duckName = target.alt;
+    console.log(duckName);
+}
+
+votingSpace.addEventListener("click", handleDuckClick);
 
 
 
