@@ -84,10 +84,20 @@ duckArr.push(water);
 
 console.log(duckArr);
 
-function duckImg (dogDuck, sweep, wine) {
- img1.src = dogDuck.imgSrc;
- img2.alt = dogDuck.name;
+function duckImg (img1, img2, img3) {
+ img1.src = dogDuck[0].imgSrc;
+ img1.alt = dogDuck[0].name;
+ img1.title = dogDuck[0].name;
+ 
+
+ img2.src = dogDuck[1].imgSrc;
+ img2.alt = dogDuck[1].name;
+ img2.title = dogDuck.name;
+
+ img3.src = dogDuck.imgSrc;
  img3.title = dogDuck.name;
+ img3.alt = dogDuck.name;
+ 
 
 }
 
