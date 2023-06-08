@@ -103,58 +103,6 @@ function duckImg (img1, img2, img3) {
 
 duckImg(duckArr[0], duckArr[1], duckArr[2]);
 
-function onDuckClick (event) {
-    console.log("cliked");
-    event.preventDefault();
-     let target = event.target;
-     let onDuckName = target.alt;
-     console.log(onDuckName);
-
-     let theBestProduct;
-     let productViews;
-
-     for (let i = 0; i < duckArr.length; i++){
-        let oddDuck = duckArr[i];
-        if(productViews.name === target.alt) {
-            theBestProduct = oddDuck;
-            productViews = oddDuck;
-
-        }
-        theBestProduct.voteCount++;
-        productViews.viewCount++;
-        console.log(theBestProduct.voteCount);
-        console.log(productViews.viewCount);
-
-     }
-
-}
-
-mainS.addEventListener("click", onDuckClick);
-
-let days = ["Mon", "Tues", "Wed", "Thur", "Fri"];
-
-let wineSales = [14, 21, 18, 22, 99];
-
-
-let myChart = document.getElementById("wine-sales");
-let chartCtx = myChart.getContext('2d');
-
-let wineDataObj = {
-    type:" bar",
-    data: {
-        labels: days,
-        datasets: [
-            {
-                label: "Wine Sales",
-                data: wineSales
-
-            }
-
-        ]
-    }
-
-};
-let wineChart = new Chart (chartCtx, wineDataObj);
 
 
 
