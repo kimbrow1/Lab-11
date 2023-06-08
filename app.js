@@ -82,7 +82,7 @@ duckArr.push(tauntaun);
 duckArr.push(unicorn);
 duckArr.push(water);
 
-
+console.log(duckArr);
 
 function duckImg (dogDuck, sweep, wine) {
  img1.src = dogDuck.imgSrc;
