@@ -57,9 +57,9 @@ let dragon = new OddDuck ("dragon", "./img/dragon.jpg");
 let pen = new OddDuck ("pen", "./img/pen.jpg");
 let scissors = new OddDuck ("scissors", "./img/scissors.jpg");
 let shark = new OddDuck ("shark", "./img/wine-glass.jpg");
-let tauntaun = new oddDuck ("tauntaun", "./img/tauntaun.jpg");
-let unicorn = new oddDuck ("unicorn", "./img/unicorn.jpg");
-let water = new oddDuck ("water", "./img/water-can.jpg");
+let tauntaun = new OddDuck ("tauntaun", "./img/tauntaun.jpg");
+let unicorn = new OddDuck ("unicorn", "./img/unicorn.jpg");
+let water = new OddDuck ("water", "./img/water-can.jpg");
 
 let duckArr = [];
 
