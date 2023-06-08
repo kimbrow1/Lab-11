@@ -56,10 +56,10 @@ let cthulhu = new oddDuck ("cthulu", "./img/cthulhu.jpg");
 let dragon = new oddDuck ("dragon", "./img/dragon.jpg");
 let pen = new oddDuck ("pen", "./img/pen.jpg");
 let scissors = new oddDuck ("scissors", "./img/scissors.jpg");
-let shark = new oddDuck ("shark", img/wine-glass.jpg);
-let tauntaun = new oddDuck ("tauntaun", img/tauntaun.jpg );
-let unicorn = new oddDuck ("unicorn", img/unicorn.jpg);
-let water = new oddDuck ("water",img/water-can.jpg );
+let shark = new oddDuck ("shark", "./img/wine-glass.jpg");
+let tauntaun = new oddDuck ("tauntaun", "./img/tauntaun.jpg");
+let unicorn = new oddDuck ("unicorn", "./img/unicorn.jpg");
+let water = new oddDuck ("water", "./img/water-can.jpg");
 
 let duckArr = [];
 
