@@ -35,16 +35,16 @@ let main3 = document.getElementById ("main-3");
 
 // CONSTRUSTOR
 
-function oddDuck(name, imgSrc) {
+function OddDuck(name, imgSrc) {
     this.name = name;
     this.imgSrc = imgSrc;
     this.voteCount = 0;
     this.viewCount = 0;
 }
 
-let dogDuck = new oddDuck ("dogDuck", "./img/dog-duck.jpg");
-let sweep = new oddDuck ("sweep", "./img/sweep.png");
-let wine = new oddDuck ("wine", "./img/wine-glass.jpg");
+let dogDuck = new OddDuck ("dogDuck", "./img/dog-duck.jpg");
+let sweep = new OddDuck ("sweep", "./img/sweep.png");
+let wine = new oodDuck ("wine", "./img/wine-glass.jpg");
 let bag = new oddDuck ("bag", "./img/bag.jpeg");
 let banana = new oddDuck ("banana", "./img/banana.jpeg");
 let bathroom = new oddDuck ("bathroom", "./img/bathroom.jpeg");
@@ -99,7 +99,7 @@ function duckImg (dogDuck, sweep, wine) {
  wine.title = wine.name;
 }
 
-oddDuck (duckArr[0], duckArr[1], duckArr[2]);
+OddDuck (duckArr[0], duckArr[1], duckArr[2]);
 
 function onDuckClick (event) {
     console.log("cliked");
