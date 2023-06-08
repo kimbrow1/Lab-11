@@ -85,12 +85,16 @@ function handleDuckClick(event) {
     let duckName = target.alt;
 
 let theBestDuck;
-for (let i = 0; i < duckArr.length; i++) {
+
+  for (let i = 0; i < duckArr.length; i++) {
     let duck = duckArr[i];
     if(duck.name === duckName)
-         theBestDuck= duck;
+      theBestDuck= duck;
     }
+    console.log(duckName);
+    console.log(theBestDuck);
 }
+
 
 votingSpace.addEventListener("click", handleDuckClick);
 
