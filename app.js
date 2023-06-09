@@ -106,6 +106,7 @@ votingSpace.addEventListener("click", handleDuckClick);
 
 function renderResults() {
   console.log("clicked");
+  finalResult.innerHTML = '';
 
   let duckUL = document.createElement('ul');
   for (let i = 0; i < duckArr.length; i++) {
@@ -124,5 +125,5 @@ function renderResults() {
 
 }
 
-let resultButton = document.getElementById('results');
+let resultButton = document.getElementById('final-results');
 resultButton.addEventListener('click', renderResults);
