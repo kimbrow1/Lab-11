@@ -76,6 +76,20 @@ function setDuckImg (img1, img2, img3) {
  
 
 }
+function getRandomInt (max) {
+  return Math.floor(Math.random() * max);
+}
+
+function setRandomDuckImg() {
+let duckIndex1 = getRandomInt(duckArr.length);
+let duckIndex2 = getRandomInt(duckArr.length);
+let duckIndex3 = getRandomInt(duckArr.length);
+let duck1 = duckArr(duckIndex1);
+let duck2 = duckArr(duckIndex2);
+let duck3 = duckArr(duckIndex3);
+
+setDuckImg()
+}
 
 setDuckImg(duckArr[0], duckArr[2], duckArr[1]);
 
