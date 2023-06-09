@@ -98,7 +98,7 @@ function setRandomDuckImg() {
   setDuckImg(duck1, duck2, duck3);
 }
 
-// setDuckImg(duckArr[0], duckArr[2], duckArr[1]);
+setDuckImg(duckArr[0], duckArr[2], duckArr[1]);
 
 setRandomDuckImg();
 
