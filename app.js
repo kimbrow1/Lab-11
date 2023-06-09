@@ -102,3 +102,19 @@ function handleDuckClick(event) {
 
 votingSpace.addEventListener("click", handleDuckClick);
 
+// todo render results
+
+function renderResults (){
+  for (let i = 0; i < duckArr.length; i++) {
+    let duck = duckArr[i]
+    let duckName = duck.name;
+    let duckVoteCount = duck.voteCount;
+    let report = `The duck named ${duckName} got ${duckVoteCount} votes `;
+
+  }
+
+}
+
+let  resultButton = document.getElementByIdById("results");
+resultButton.addEventListener("click", renderResults);
+renderResults();
