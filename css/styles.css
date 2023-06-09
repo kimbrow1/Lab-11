@@ -52,5 +52,10 @@ html {
 
 #final-results {
    text-align: center;
+   font-style: italic;
    
+}
+
+#results {
+    font-style: italic;
 }
