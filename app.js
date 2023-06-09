@@ -103,19 +103,17 @@ function setRandomDuckImg() {
 setRandomDuckImg();
 
 function handleDuckClick(event) {
-    event.preventDefault();
-    let target = event.target;
-    let duckName = target.alt;
+  event.preventDefault();
+  let target = event.target;
+  let duckName = target.alt;
 
   let theBestDuck;
   for (let i = 0; i < duckArr.length; i++) {
     let duck = duckArr[i];
     if(duck.name === duckName)
       theBestDuck= duck;
-    }
+  }
 
-
-  
   theBestDuck.voteCount++;
 
   console.log(duckName, theBestDuck.voteCount);
@@ -140,7 +138,6 @@ function renderResults() {
     duckLI.textContent = report;
     duckUL.appendChild(duckLI);
     console.log(report);
-    
   }
 
   finalResult.appendChild(duckUL);
