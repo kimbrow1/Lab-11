@@ -13,3 +13,10 @@ body {
     font-style: italic;
     font-weight: bold;
 }
+
+main {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 2fr 2fr;
+}
