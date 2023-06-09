@@ -1,5 +1,5 @@
 'use strict';
-
+let voteLimit = 25;
 let votingSpace = document.getElementById("voting-space");
 let finalResult = document.getElementById ("final-Results");
 
