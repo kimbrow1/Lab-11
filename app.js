@@ -105,12 +105,13 @@ votingSpace.addEventListener("click", handleDuckClick);
 // todo render results
 
 function renderResults (){
+  console.log("clicked");
   for (let i = 0; i < duckArr.length; i++) {
     let duck = duckArr[i]
     let duckName = duck.name;
     let duckVoteCount = duck.voteCount;
     let report = `The duck named ${duckName} got ${duckVoteCount} votes `;
-
+    console.log(report);
   }
 
 }
