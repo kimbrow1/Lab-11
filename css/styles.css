@@ -50,13 +50,11 @@ html {
     padding: 175px;
 }
 
-#final-results {
-   text-align: center;
-   font-style: italic;
-   
-}
 
-#results {
+
+#results1 {
     font-style: italic;
-    font-size: 30px;
+    font-size: 40px;
+    text-align: center;
+    
 }
