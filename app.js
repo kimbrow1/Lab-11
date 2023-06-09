@@ -102,4 +102,3 @@ function handleDuckClick(event) {
 
 votingSpace.addEventListener("click", handleDuckClick);
 
- 

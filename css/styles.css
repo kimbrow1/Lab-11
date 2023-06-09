@@ -1,18 +1,12 @@
 html {
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
 }
   
   img {
-    width: 30%;
-    float: left;
-    padding: 5px;
-
-    display: grid;
-    column-gap: 20px;
-    row-gap: 10px;
-    grid-template-columns: 1fr 2fr 2fr;
+   height: 300px;
+   width: 300px;
+   margin: 10px;
 
 
     
@@ -48,6 +42,13 @@ html {
     
 }
 
-#voting-spaces {
-    
+#voting-space {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-content: space-evenly;
+}
+
+#final-results {
+   text-align: center;
 }
