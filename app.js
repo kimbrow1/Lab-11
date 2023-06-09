@@ -93,12 +93,12 @@ function handleDuckClick(event) {
 
 
   
-    theBestDuck.voteCount++;
+  theBestDuck.voteCount++;
 
-    console.log(duckName, theBestDuck.voteCount);
-    console.log(theBestDuck);
+  console.log(duckName, theBestDuck.voteCount);
+  console.log(theBestDuck);
 
-  }
+}
 
 votingSpace.addEventListener("click", handleDuckClick);
 
@@ -106,16 +106,23 @@ votingSpace.addEventListener("click", handleDuckClick);
 
 function renderResults (){
   console.log("clicked");
+
+  let duckUL = document.createElement('ul');
   for (let i = 0; i < duckArr.length; i++) {
-    let duck = duckArr[i]
+    let duck = duckArr[i];
     let duckName = duck.name;
     let duckVoteCount = duck.voteCount;
     let report = `The duck named ${duckName} got ${duckVoteCount} votes `;
+    let duckLI = document.createElement('li');
+    duckLI.textContent = report;
+    duckUL.appendChild(duckLI);
     console.log(report);
+    
   }
+
+  finalResult.appendChild(duckUL);
 
 }
 
-let  resultButton = document.getElementByIdById("results");
-resultButton.addEventListener("click", renderResults);
-renderResults();
+let resultButton = document.getElementByIdById('results');
+resultButton.addEventListener('click', renderResults);
