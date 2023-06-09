@@ -84,7 +84,7 @@ function setRandomDuckImg() {
   let duckIndex1 = getRandomInt(duckArr.length);
   let duckIndex2 = getRandomInt(duckArr.length);
   let duckIndex3 = getRandomInt(duckArr.length);
-  if (duckIndex1 === duckIndex2 && duckIndex3) {
+  while (duckIndex1 === duckIndex2 === duckIndex3) {
     duckIndex1 = getRandomInt(duckArr.length);
     duckIndex2 = getRandomInt(duckArr.length);
     duckIndex3 = getRandomInt(duckArr.length);
