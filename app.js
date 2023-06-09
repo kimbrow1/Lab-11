@@ -77,14 +77,14 @@ function duckImg (img1, img2, img3) {
 
 }
 
-duckImg(dogDuck, wine, sweep);
+duckImg(duckArr[0], duckArr[2], duckArr[1]);
 
 function handleDuckClick(event) {
     event.preventDefault();
     let target = event.target;
     let duckName = target.alt;
 
-let theBestDuck;
+  let theBestDuck;
 
   for (let i = 0; i < duckArr.length; i++) {
     let duck = duckArr[i];
@@ -92,13 +92,16 @@ let theBestDuck;
       theBestDuck= duck;
     }
 
+
+
     theBestDuck.voteCount++;
+
     console.log(duckName, theBestDuck.voteCount);
     console.log(theBestDuck);
-}
+
 
 
 votingSpace.addEventListener("click", handleDuckClick);
 
-
+ 
 

@@ -1,22 +1,49 @@
 html {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
+  
+  img {
+    width: 30%;
+    float: left;
+    padding: 5px;
 
-body {
-    background-color: lightslategray;
-}
-
-
-#h-1 {
-    font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
-}
-
-main {
     display: grid;
     column-gap: 20px;
     row-gap: 10px;
     grid-template-columns: 1fr 2fr 2fr;
+
+
+    
+  }
+  
+  body {
+    background-color: lightblue;
+  }
+ 
+  #h-1 {
+    font-size: 40px;
+    padding: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+
+#img-1 {
+    border: 15px solid black;
+    
+    
+}
+
+#img-2 {
+    border: 15px solid black;
+    
+}
+
+#img-3 {
+    border: 15px solid black;
+    
 }
