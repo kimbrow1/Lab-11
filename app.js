@@ -5,7 +5,7 @@ let finalResult = document.getElementById ("final-Results");
 
 // TIDO: PUT VOTING AND RESULT AREA IN HTML
 
-let img1 = document.getElementById("img-1");
+let img1 = document.getElementById("img-1"); 
 let img2 = document.getElementById ("img-2");
 let img3 = document.getElementById ("img-3");
 
@@ -85,7 +85,6 @@ function handleDuckClick(event) {
     let duckName = target.alt;
 
   let theBestDuck;
-
   for (let i = 0; i < duckArr.length; i++) {
     let duck = duckArr[i];
     if(duck.name === duckName)
@@ -93,15 +92,14 @@ function handleDuckClick(event) {
     }
 
 
-
+  
     theBestDuck.voteCount++;
 
     console.log(duckName, theBestDuck.voteCount);
     console.log(theBestDuck);
 
-
+  }
 
 votingSpace.addEventListener("click", handleDuckClick);
 
  
-
