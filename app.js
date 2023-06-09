@@ -135,9 +135,9 @@ function renderResults() {
     let duckName = duck.name;
     let duckVoteCount = duck.voteCount;
     let report = `The duck named ${duckName} got ${duckVoteCount} votes `;
-    let duckLI = document.createElement('li');
-    duckLI.textContent = report;
-    duckUL.appendChild(duckLI);
+    let duckLi = document.createElement('li');
+    duckLi.textContent = report;
+   duckUL.appendChild(duckLi);
     console.log(report);
   }
 
