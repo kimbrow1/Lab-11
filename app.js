@@ -60,7 +60,7 @@ duckArr.push(water);
 
 console.log(duckArr);
 
-function duckImg (img1, img2, img3) {
+function setDuckImg (img1, img2, img3) {
  img1.src = img1.imgSrc;
  img1.alt = img1.name;
  img1.title = img1.name;
@@ -77,7 +77,7 @@ function duckImg (img1, img2, img3) {
 
 }
 
-duckImg(duckArr[0], duckArr[2], duckArr[1]);
+setDuckImg(duckArr[0], duckArr[2], duckArr[1]);
 
 function handleDuckClick(event) {
     event.preventDefault();
