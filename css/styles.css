@@ -47,8 +47,10 @@ html {
     flex-direction: row;
     justify-content: left;
     justify-content: space-evenly;
+    padding: 175px;
 }
 
 #final-results {
    text-align: center;
+   
 }
