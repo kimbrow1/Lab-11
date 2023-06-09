@@ -81,17 +81,26 @@ function getRandomInt (max) {
 }
 
 function setRandomDuckImg() {
-let duckIndex1 = getRandomInt(duckArr.length);
-let duckIndex2 = getRandomInt(duckArr.length);
-let duckIndex3 = getRandomInt(duckArr.length);
-let duck1 = duckArr(duckIndex1);
-let duck2 = duckArr(duckIndex2);
-let duck3 = duckArr(duckIndex3);
+  let duckIndex1 = getRandomInt(duckArr.length);
+  let duckIndex2 = getRandomInt(duckArr.length);
+  let duckIndex3 = getRandomInt(duckArr.length);
+  if (duckIndex1 === duckIndex2 && duckIndex3) {
+    duckIndex1 = getRandomInt(duckArr.length);
+    duckIndex2 = getRandomInt(duckArr.length);
+    duckIndex3 = getRandomInt(duckArr.length);
 
-setDuckImg()
+  }
+
+  let duck1 = duckArr(duckIndex1);
+  let duck2 = duckArr(duckIndex2);
+  let duck3 = duckArr(duckIndex3);
+
+  setDuckImg(duck1, duck2, duck3);
 }
 
-setDuckImg(duckArr[0], duckArr[2], duckArr[1]);
+// setDuckImg(duckArr[0], duckArr[2], duckArr[1]);
+
+setRandomDuckImg();
 
 function handleDuckClick(event) {
     event.preventDefault();
