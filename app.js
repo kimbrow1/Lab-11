@@ -113,7 +113,7 @@ function handleDuckClick(event) {
   for (let i = 0; i < duckArr.length; i++) {
     let duck = duckArr[i];
     if(duck.name === duckName)
-      theBestDuck= duck;
+      theBestDuck = duck;
       console.log(duckName);
   }
   console.log(duckName);
