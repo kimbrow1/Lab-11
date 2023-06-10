@@ -119,6 +119,8 @@ function handleDuckClick(event) {
   console.log(duckName);
   theBestDuck.voteCount++;
 
+  console.log(theBestDuck);
+
   console.log(duckName, theBestDuck.voteCount);
   console.log(theBestDuck);
   setRandomDuckImg();
