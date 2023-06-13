@@ -114,7 +114,7 @@ function handleDuckClick(event) {
     if(duck.name === duckName)
       theBestDuck = duck;
   }
-  console.log(duckName);
+
   theBestDuck.voteCount++;
 
 
@@ -178,6 +178,7 @@ function displayChart (data) {
 }
 
 displayChart();
+console.log(displayChart);
 
 function getVoteData(duckArr) {
   let votes = [];
