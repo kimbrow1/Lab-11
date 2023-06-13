@@ -153,7 +153,11 @@ resultButton.addEventListener('click', renderResults);
 
 // TODO: create a function that displays a chart with our data
 
+let chart;
 function displayChart (data) {
+  if(chart !== undefined) {
+    chart.destroy();
+  }
   let labels = getLabelData(data);
   let votes = getVoteData(data);
   let ctx = document.getElementById("chart-canvas");
@@ -163,13 +167,13 @@ function displayChart (data) {
       labels: ["duck 1", "duck 2"],
       datasets: [
         {
-          label:"votes",
-          data: [5, 8]
+          label:"votes for duck",
+          data: votes
         }
       ]
     }
   }
-  let chart = new Chart(ctx, dataObj);
+   chart = new Chart(ctx, dataObj);
 
 }
 
