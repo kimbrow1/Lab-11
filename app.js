@@ -112,7 +112,6 @@ function handleDuckClick(event) {
     let duck = duckArr[i];
     if(duck.name === duckName)
       theBestDuck = duck;
-      console.log(duckName);
   }
   console.log(duckName);
   theBestDuck.voteCount++;
