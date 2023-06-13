@@ -60,18 +60,18 @@ duckArr.push(water);
 
 console.log(duckArr);
 
-function setDuckImg (img1, img2, img3) {
- img1.src = img1.imgSrc;
- img1.alt = img1.name;
- img1.title = img1.name;
+function setDuckImg (prod1, prod2, prod3) {
+ img1.src = prod1.imgSrc;
+ img1.alt = prod1.name;
+ img1.title = prod1.name;
  
 
- img2.src = img2.imgSrc;
- img2.alt = img2.name;
- img2.title = img2.name;
+ img2.src = prod2.imgSrc;
+ img2.alt = prod2.name;
+ img2.title = prod2.name;
 
- img3.src = img3.imgSrc;
- img3.title = img3.name;
+ img3.src = prod3.imgSrc;
+ img3.title = prod3.name;
  img3.alt = img3.name;
  
 
@@ -119,7 +119,7 @@ function handleDuckClick(event) {
   console.log(duckName);
   theBestDuck.voteCount++;
 
-  console.log(theBestDuck);
+  console.log(theBestDuck); 
 
   console.log(duckName, theBestDuck.voteCount);
   console.log(theBestDuck);
