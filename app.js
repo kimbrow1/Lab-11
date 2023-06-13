@@ -1,4 +1,7 @@
 'use strict';
+
+const { Chart } = require("chart.js");
+
 let voteLimit = 25;
 let votingSpace = document.getElementById("voting-space");
 let finalResult = document.getElementById ("final-Results");
@@ -150,6 +153,7 @@ resultButton.addEventListener('click', renderResults);
 // TODO: create a function that displays a chart with our data
 
 function displayChart (data) {
-  
+  let ctx = document.getElementById("")
+  let chart = new Chart(ctx, dataObj)
 
-} 
+};
