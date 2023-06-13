@@ -128,7 +128,6 @@ votingSpace.addEventListener("click", handleDuckClick);
 // todo render results
 
 function renderResults() {
-  console.log("clicked");
   finalResult.innerHTML = '';
   let duckUL = document.createElement('ul');
   for (let i = 0; i < duckArr.length; i++) {
