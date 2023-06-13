@@ -1,7 +1,5 @@
 'use strict';
 
-const { Chart } = require("chart.js");
-
 let voteLimit = 25;
 let votingSpace = document.getElementById("voting-space");
 let finalResult = document.getElementById ("final-Results");
@@ -141,9 +139,12 @@ function renderResults() {
     let duckLi = document.createElement('li');
     duckLi.textContent = report;
     duckUL.appendChild(duckLi);
+
+    console.log(renderResults);
   }
 
   finalResult.appendChild(duckUL);
+  displayChart(duckArr);
 
 }
 
@@ -153,7 +154,25 @@ resultButton.addEventListener('click', renderResults);
 // TODO: create a function that displays a chart with our data
 
 function displayChart (data) {
-  let ctx = document.getElementById("")
-  let chart = new Chart(ctx, dataObj)
+  let ctx = document.getElementById("chart-canvas");
+  let dataObj = {
+    type: 'bar',
+    data: {
+      labels: ["duck 1", "duck 2"],
+      datasets: [
+        {
+          label:"votes",
+          data: [5, 8]
+        }
+      ]
+    }
+  }
+  let chart = new Chart(ctx, dataObj);
 
-};
+}
+
+//displayChart();
+
+function getVoteData(duckArr) {
+
+}
