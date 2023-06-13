@@ -123,7 +123,7 @@ function handleDuckClick(event) {
 
 }
 
-votingSpace.addEventListener("click", handleDuckClick);
+votingSpace.addEventListener('click', handleDuckClick);
 
 // todo render results
 
