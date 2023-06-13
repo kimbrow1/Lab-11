@@ -72,7 +72,7 @@ function setDuckImg (prod1, prod2, prod3) {
 
  img3.src = prod3.imgSrc;
  img3.title = prod3.name;
- img3.alt = img3.name;
+ img3.alt = prod3.name;
  
 
 }
@@ -106,8 +106,6 @@ function handleDuckClick(event) {
   event.preventDefault();
   let target = event.target;
   let duckName = target.alt;
-
-  console.log(target.alt);
 
   let theBestDuck;
   for (let i = 0; i < duckArr.length; i++) {
