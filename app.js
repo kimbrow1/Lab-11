@@ -12,10 +12,10 @@ let img3 = document.getElementById ("img-3");
 // CONSTRUSTOR
 
 function OddDuck(name, imgSrc) {
-    this.name = name;
-    this.imgSrc = imgSrc;
-    this.voteCount = 0;
-    this.viewCount = 0;
+  this.name = name;
+  this.imgSrc = imgSrc;
+  this.voteCount = 0;
+  this.viewCount = 0;
 }
 
 let dogDuck = new OddDuck ("dogDuck", "./img/dog-duck.jpg");
