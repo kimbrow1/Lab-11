@@ -154,6 +154,8 @@ resultButton.addEventListener('click', renderResults);
 // TODO: create a function that displays a chart with our data
 
 function displayChart (data) {
+  let labels = getLabelData(data);
+  let votes = getVoteData(data);
   let ctx = document.getElementById("chart-canvas");
   let dataObj = {
     type: 'bar',
