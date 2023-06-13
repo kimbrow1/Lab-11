@@ -174,5 +174,19 @@ function displayChart (data) {
 //displayChart();
 
 function getVoteData(duckArr) {
+  let votes = [];
+  for(let duck of duckArr){
+    votes.push(duck.voteCount);
 
+  }
+  return votes;
+}
+
+function getLabelData(duckArr) {
+  let labels = [];
+  for(let duck of duckArr) {
+    labels.push(duck.name);
+
+  }
+  return labels;
 }
