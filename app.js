@@ -147,4 +147,9 @@ function renderResults() {
 let resultButton = document.getElementById('final-results');
 resultButton.addEventListener('click', renderResults);
 
-// TODO: create a function that displays a chart
+// TODO: create a function that displays a chart with our data
+
+function displayChart (data) {
+  
+
+} 
