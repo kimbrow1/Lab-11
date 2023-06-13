@@ -164,7 +164,7 @@ function displayChart (data) {
   let dataObj = {
     type: 'bar',
     data: {
-      labels: ["duck 1", "duck 2"],
+      labels: ["duck 1", "duck 2", "duck3"],
       datasets: [
         {
           label:"votes for duck",
@@ -177,7 +177,7 @@ function displayChart (data) {
 
 }
 
-//displayChart();
+displayChart();
 
 function getVoteData(duckArr) {
   let votes = [];
