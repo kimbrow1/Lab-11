@@ -108,7 +108,7 @@ votingSpace.addEventListener("click", handleDuckClick);
 
 function renderResults(event) {
   event.preventDefault();
- // finalResult.innerHTML = "";
+  finalResult.innerHTML = "";
   let duckUL = document.createElement("ul");
   for (let i = 0; i < duckArr.length; i++) {
     let duck = duckArr[i];
@@ -137,23 +137,28 @@ function displayChart(data) {
   }
   let labels = getLabelData(data);
   let votes = getVoteData(data);
+  //let views = getViewData(data);
   let ctx = document.getElementById("chart-canvas");
   let dataObj = {
     type: "bar",
     data: {
-      labels: ["duck 1", "duck 2", "duck3"],
+      labels: labels,
       datasets: [
         {
           label: "votes for duck",
           data: votes,
         },
+        // {
+        //  label: "Views for duck",
+        //   data: views,
+        // },
       ],
     },
   };
   chart = new Chart(ctx, dataObj);
 }
 
-displayChart();
+displayChart(duckArr);
 console.log(displayChart);
 
 function getVoteData(duckArr) {
@@ -171,3 +176,5 @@ function getLabelData(duckArr) {
   }
   return labels;
 }
+
+// make another function for get view data and call in chart function
