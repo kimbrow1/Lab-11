@@ -2,7 +2,7 @@
 
 let voteLimit = 25;
 let votingSpace = document.getElementById("voting-space");
-let finalResult = document.getElementById("final-Results");
+let finalResult = document.getElementById("final-results");
 
 // TIDO: PUT VOTING AND RESULT AREA IN HTML
 
@@ -108,7 +108,7 @@ votingSpace.addEventListener("click", handleDuckClick);
 
 function renderResults(event) {
   event.preventDefault();
-  finalResult.innerHTML = "";
+ // finalResult.innerHTML = "";
   let duckUL = document.createElement("ul");
   for (let i = 0; i < duckArr.length; i++) {
     let duck = duckArr[i];
