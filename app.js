@@ -19,45 +19,28 @@ function OddDuck(name, imgSrc) {
   this.viewCount = 0;
 }
 
-let dogDuck = new OddDuck ("dogDuck", "./img/dog-duck.jpg");
-let sweep = new OddDuck ("sweep", "./img/sweep.png");
-let wine = new OddDuck ("wine", "./img/wine-glass.jpg");
-let bag = new OddDuck ("bag", "./img/bag.jpeg");
-let banana = new OddDuck ("banana", "./img/banana.jpeg");
-let bathroom = new OddDuck ("bathroom", "./img/bathroom.jpeg");
-let boots = new OddDuck ("boots", "./img/boots.jpg");
-let breakfast = new OddDuck ("breakfast", "./img/breakfast.jpg");
-let bubbleGum = new OddDuck ("bubbleGum", "./img/bubblegum.jpg");
-let chair = new OddDuck ("chair", "./img/chair.jpg");
-let cthulhu = new OddDuck ("cthulu", "./img/cthulhu.jpg");
-let dragon = new OddDuck ("dragon", "./img/dragon.jpg");
-let pen = new OddDuck ("pen", "./img/pen.jpg");
-let scissors = new OddDuck ("scissors", "./img/scissors.jpg");
-let shark = new OddDuck ("shark", "./img/wine-glass.jpg");
-let tauntaun = new OddDuck ("tauntaun", "./img/tauntaun.jpg");
-let unicorn = new OddDuck ("unicorn", "./img/unicorn.jpg");
-let water = new OddDuck ("water", "./img/water-can.jpg");
+let duckArr = [ 
+ new OddDuck ("water", "./img/water-can.jpg"),
+ new OddDuck ("dogDuck", "./img/dog-duck.jpg"),
+ new OddDuck ("sweep", "./img/sweep.png"),
+ new OddDuck ("wine", "./img/wine-glass.jpg"),
+ new OddDuck ("bag", "./img/bag.jpeg"),
+ new OddDuck ("banana", "./img/banana.jpeg"),
+ new OddDuck ("bathroom", "./img/bathroom.jpeg"),
+new OddDuck ("boots", "./img/boots.jpg"),
+new OddDuck ("breakfast", "./img/breakfast.jpg"),
+ new OddDuck ("bubbleGum", "./img/bubblegum.jpg"),
+ new OddDuck ("chair", "./img/chair.jpg"),
+ new OddDuck ("cthulu", "./img/cthulhu.jpg"),
+new OddDuck ("dragon", "./img/dragon.jpg"),
+new OddDuck ("pen", "./img/pen.jpg"),
+ new OddDuck ("scissors", "./img/scissors.jpg"),
+ new OddDuck ("shark", "./img/wine-glass.jpg"),
+ new OddDuck ("tauntaun", "./img/tauntaun.jpg"),
+ new OddDuck ("unicorn", "./img/unicorn.jpg"),
 
-let duckArr = [];
+];
 
-duckArr.push (dogDuck);
-duckArr.push(sweep);
-duckArr.push(wine);
-duckArr.push(bag);
-duckArr.push(banana);
-duckArr.push(bathroom);
-duckArr.push(boots);
-duckArr.push(breakfast);
-duckArr.push(bubbleGum);
-duckArr.push(chair);
-duckArr.push(cthulhu);
-duckArr.push(dragon);
-duckArr.push(pen);
-duckArr.push(scissors);
-duckArr.push(shark);
-duckArr.push(tauntaun);
-duckArr.push(unicorn);
-duckArr.push(water);
 
 console.log(duckArr);
 
