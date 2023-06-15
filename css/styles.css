@@ -52,15 +52,17 @@ html {
 
 
 
-#results1 {
+#results1-container {
     font-style: italic;
-    font-size: 40px;
+    font-size: 80px;
     text-align: center;
     
 }
 
 #my-chart {
   grid-column: 1/3;
+  background-color: black;
+  column-rule-color: lightblue ;
 
 }
 

@@ -145,7 +145,7 @@ function displayChart(data) {
       labels: labels,
       datasets: [
         {
-          label: "votes for duck",
+          label: "Votes For Duck",
           data: votes,
         },
         // {
