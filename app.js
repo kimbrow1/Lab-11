@@ -97,6 +97,11 @@ function handleDuckClick(event) {
 
   theBestDuck.voteCount++;
   voteLimit--;
+  if(voteLimit === 0) {
+    votingSpace.removeEventListener("click", handleDuckClick);
+
+
+  }
 
   console.log(duckName, theBestDuck.voteCount);
   console.log(theBestDuck);
