@@ -183,4 +183,3 @@ function getLabelData(duckArr) {
   return labels;
 }
 
-// make another function for get view data and call in chart function
