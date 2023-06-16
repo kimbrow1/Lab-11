@@ -13,7 +13,9 @@ https://www.codecademy.com/resources/docs/html
 
 ### Lighthouse Accessibility Report Score
 
-* Provide a screenshot of your score after running a Lighthouse Accessibility report.
+![Light House Image](![Light House Image](img/Screen%20Shot%202023-06-03%20at%203.45.51%20PM.png)
+
+
 
 ### Reflections and Comments
 
