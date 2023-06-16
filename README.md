@@ -13,8 +13,8 @@ https://www.codecademy.com/resources/docs/html
 
 ### Lighthouse Accessibility Report Score
 
-![Light House Image](![Light House Image](img/Screen%20Shot%202023-06-03%20at%203.45.51%20PM.png)
 
+![Light House](<Screen Shot 2023-06-15 at 10.42.17 PM.png>)
 
 
 ### Reflections and Comments
