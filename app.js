@@ -96,6 +96,7 @@ function handleDuckClick(event) {
   }
 
   theBestDuck.voteCount++;
+  voteLimit--;
 
   console.log(duckName, theBestDuck.voteCount);
   console.log(theBestDuck);
