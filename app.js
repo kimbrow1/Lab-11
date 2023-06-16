@@ -143,7 +143,6 @@ function displayChart(data) {
   }
   let labels = getLabelData(data);
   let votes = getVoteData(data);
-  //let views = getViewData(data);
   let ctx = document.getElementById("chart-canvas");
   let dataObj = {
     type: "bar",
@@ -154,10 +153,6 @@ function displayChart(data) {
           label: "Votes For Duck",
           data: votes,
         },
-        // {
-        //  label: "Views for duck",
-        //   data: views,
-        // },
       ],
     },
   };
