@@ -150,7 +150,7 @@ function displayChart(data) {
       labels: labels,
       datasets: [
         {
-          label: "Votes For Duck",
+          label: "Votes For Ducks",
           data: votes,
         },
       ],
